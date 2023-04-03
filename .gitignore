@@ -143,3 +143,5 @@ dmypy.json
 
 # AREA_DIST_MATRICES (too large)
 awpy/data/nav/area_distance_matrix*.json
+demofiles/*
+output/*
