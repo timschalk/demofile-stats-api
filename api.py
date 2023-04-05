@@ -62,7 +62,8 @@ def get_stats():
             "score": data["gameRounds"][-1]["endCTScore"],
             "player": data["gameRounds"][0]["tSide"]["players"]
         },
-        "player_stats" : player_stats(data["gameRounds"])
+        "player_stats" : player_stats(data["gameRounds"]),
+        "matchmakingRanks": data["matchmakingRanks"]
     }
 
     return jsonify(result_obj)
